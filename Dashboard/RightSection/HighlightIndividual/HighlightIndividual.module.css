@@ -1,0 +1,42 @@
+.HighlightIndividualContainer {
+  height: 14rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+.HighlightIndividualTitle {
+  font-size: var(--font-18);
+  font-weight: 700;
+  color: var(--white);
+  text-transform: capitalize;
+}
+.HighlightIndividualNumber {
+  font-size: var(--font-22);
+  color: var(--white);
+}
+
+@media screen and (max-width: 1170px) {
+  .HighlightIndividualContainer {
+    height: 100%;
+    min-height: 11rem;
+  }
+  .HighlightIndividualNumber {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .HighlightIndividualContainer {
+    height: fit-content;
+    min-height: unset;
+    border-radius: calc(1vw + 0.3rem);
+  }
+  .HighlightIndividualTitle {
+    font-size: calc(1vw + 1.1rem);
+  }
+  .HighlightIndividualNumber {
+    font-size: calc(2vw + 1.1rem);
+  }
+}

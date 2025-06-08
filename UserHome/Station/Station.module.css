@@ -1,0 +1,102 @@
+.Wrapper {
+  width: 100%;
+  border: 1px solid rgb(177, 176, 176);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1.5rem 2.3rem;
+  margin-bottom: 1.2rem;
+}
+.InfoContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: fit-content;
+  justify-content: space-between;
+  margin-right: 2rem;
+}
+.StationName {
+  font-weight: 500;
+  font-size: var(--font-20);
+  margin-bottom: 0.5rem;
+}
+.StationAddress {
+  font-weight: 500;
+  font-size: var(--font-16);
+}
+.StationPoints {
+  margin-top: 1.3rem;
+  font-weight: 500;
+  font-size: var(--font-17);
+}
+.PointCount {
+  font-weight: 800;
+  font-size: var(--font-18);
+}
+.ButtonStyle {
+  padding: 1rem 2.5rem;
+  background: linear-gradient(
+    84.96deg,
+    #00c2ff -11.09%,
+    rgba(0, 209, 255, 0.63) 155.85%
+  );
+  border-radius: 28px;
+  font-weight: 500;
+  font-size: var(--font-16) !important;
+  text-align: center;
+  color: white !important;
+  transition: box-shadow 0.2s ease;
+  min-width: 10rem !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .Wrapper {
+    flex-direction: column;
+    padding: 1.5rem 2rem;
+  }
+  .ButtonStyle {
+    margin: 0 auto !important;
+    margin-top: 1.4rem !important;
+    font-size: var(--font-15) !important;
+  }
+  .ButtonContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .InfoContainer {
+    width: 100%;
+    margin-right: 0rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .Wrapper {
+    flex-direction: column;
+    padding: 1.3rem 1.5rem;
+  }
+  .ButtonStyle {
+    margin-top: 1.3rem !important;
+    font-size: var(--font-14) !important;
+  }
+  .ButtonContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .StationName {
+    font-size: var(--font-18);
+  }
+  .StationAddress {
+    font-size: var(--font-15);
+  }
+  .StationPoints {
+    margin-top: 1rem;
+    font-size: var(--font-15);
+  }
+  .PointCount {
+    font-size: var(--font-15);
+  }
+}

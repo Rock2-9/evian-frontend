@@ -1,0 +1,61 @@
+.SlotHistoryContainer {
+  margin: 0;
+  width: 100%;
+  padding-top: 2.5rem;
+}
+.SlotHistoryWrapper {
+  width: 100%;
+}
+.SlotHistoryTitle {
+  font-size: var(--font-20);
+  font-weight: 700;
+  margin: 1.5rem 0;
+  margin-top: 2.5rem;
+}
+.SlotHistoryHeadingContainer p {
+  font-weight: 600;
+}
+@media screen and (max-width: 1150px) {
+  .SlotHistoryContainer {
+    margin-left: 0;
+  }
+}
+.SlotHistoryIndividualWrapper {
+  display: grid;
+  grid-template-columns: 15fr 20fr 20fr 10fr;
+  margin-bottom: 1rem;
+}
+.SlotUserName {
+  font-size: var(--font-14);
+  font-weight: 600;
+}
+.SlotVehicleNo {
+  font-size: var(--font-14);
+  font-weight: 600;
+  justify-self: center;
+}
+.SlotTime {
+  font-size: var(--font-14);
+  font-weight: 600;
+  justify-self: end;
+}
+.SlotStatus {
+  font-size: var(--font-14);
+  font-weight: 600;
+  justify-self: end;
+}
+
+@media screen and (max-width: 600px) {
+  .SlotHistoryContainer {
+    padding-top: 0rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .SlotUserName,
+  .SlotVehicleNo,
+  .SlotTime,
+  .SlotStatus {
+    font-size: var(--fontv-35);
+  }
+}
