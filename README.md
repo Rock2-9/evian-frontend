@@ -67,7 +67,7 @@ Here comes Evians, where users can schedule charging spaces, check available sta
 2. Clone the repository
 
 ```sh
-git clone https://github.com/manishmahala/evian-frontend.git
+git clone https://github.com/Rock2-9/evian-frontend.git
 ```
 
 3. Open the folder containing the cloned repository
@@ -87,6 +87,6 @@ npm start
 ## Contributors
 
 - [Akash Gupta](https://github.com/akashgupta1909)
-- [Manish Mahala](https://github.com/manishmahala)
+- [Deepak Yadav ](https://github.com/Rock2-9)
 - [Harshil Mendpara](https://github.com/HarshilMendpara)
 - [Raj Varsani](https://github.com/RajVarsani)
